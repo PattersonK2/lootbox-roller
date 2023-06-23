@@ -7,7 +7,7 @@ from selectLootbox import user_interaction
 
 def main(args):
     load_roll_tables()
-    user_interaction()
+    user_interaction(args.quickroll)
 
 
 if __name__ == '__main__':
@@ -16,10 +16,13 @@ if __name__ == '__main__':
         epilog="As an alternative to the commandline, params can be placed in a file, one per line, and specified on the commandline like '%(prog)s @params.conf'.",
         fromfile_prefix_chars='@')
     # TODO Specify your real parameters here.
-    # parser.add_argument(
-    #                     "argument",
-    #                     help = "pass ARG to the program",
-    #                     metavar = "ARG")
+    parser.add_argument(
+        "-qr",
+        "--quickroll",
+        type=str,
+        help="select an option and bypass the prompt",
+        default=None,
+        metavar="ARG")
     parser.add_argument(
         "-v",
         "--verbose",
