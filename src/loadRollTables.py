@@ -5,18 +5,21 @@ data_dict = {}
 
 
 def load_roll_tables():
-    json_dir = "/rollTables"
+    json_dir = "rollTables"
 
-    whole_directory = os.listdir(json_dir)
+    parent_directory = os.getcwd()
+    path_to_json_files = os.path.join(parent_directory, "src", json_dir)
+    whole_directory = os.listdir(path_to_json_files)
     i = 0
     # Iterate over the JSON files in the directory
     for filename in whole_directory:
         i += 1
         if filename.endswith('.json'):  # Ensure only JSON files are considered
-            file_path = os.path.join(json_dir, filename)
+            file_path = os.path.join(path_to_json_files, filename)
 
             # Read and parse the JSON file
-            print(f"loading ({i}/{whole_directory.__len__})... {filename}")
+            print(
+                f"loading ({i}/{len(whole_directory)})... {filename}")
             with open(file_path, 'r') as file:
                 json_data = json.load(file)
 
@@ -24,7 +27,7 @@ def load_roll_tables():
             data_dict[filename] = json_data
 
 
-def load_roll_table(quality):
+def load_roll_table(quality, type="base"):
     # TODO: remove opening files and do it all in one step.
-    filename = f"{quality}.base.json"
+    filename = f"{quality}.{type}.json"
     return data_dict[filename]

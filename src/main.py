@@ -2,12 +2,12 @@
 import argparse
 
 from loadRollTables import load_roll_tables
-from selectLootbox import select_lootbox
+from selectLootbox import user_interaction
 
 
 def main(args):
     load_roll_tables()
-    select_lootbox()
+    user_interaction()
 
 
 if __name__ == '__main__':

@@ -16,18 +16,22 @@ def select_lootbox():
             print("Invalid input. Please enter a valid selection.")
 
 
-# Call the function to prompt the user
-user_selection = select_lootbox()
+def user_interaction():
+    # Call the function to prompt the user
+    user_selection = select_lootbox()
 
-# Do something based on the user's selection
-if user_selection == 1:
-    print("Bronze selected.")
-    roll_loot("bronze")
-elif user_selection == 2:
-    print("Silver selected.")
-    roll_loot("silver")
-elif user_selection == 3:
-    print("Quality selected.")
-    roll_loot("quality")
-else:
-    print(f"How TF was {user_selection} selected?!")
+    loot = ""
+    # Do something based on the user's selection
+    if user_selection == 1:
+        print("Bronze selected.")
+        loot = roll_loot("bronze")
+    elif user_selection == 2:
+        print("Silver selected.")
+        loot = roll_loot("silver")
+    elif user_selection == 3:
+        print("Quality selected.")
+        loot = roll_loot("quality")
+    else:
+        print(f"How TF was {user_selection} selected?!")
+
+    print(f"You rolled a: {loot}")

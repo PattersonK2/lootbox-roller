@@ -3,8 +3,8 @@ import random
 from loadRollTables import load_roll_table
 
 
-def roll_loot(quality):
-    data = load_roll_table(quality)
+def roll_loot(quality, type="base"):
+    data = load_roll_table(quality, type)
     random_number = random.randint(1, 100)
 
     # Find the matching item in the JSON data
@@ -20,6 +20,9 @@ def roll_loot(quality):
     print("Random Number:", random_number)
     if matched_item is not None:
         print("Matched Item:", matched_item)
+        if "|" in matched_item:
+            prefix, subtype = matched_item.split("|")
+            matched_item = prefix + roll_loot(quality, type=subtype)
         return matched_item
     else:
         print("No match found.")
