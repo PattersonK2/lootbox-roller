@@ -1,0 +1,13 @@
+{
+  "01-05" : "+1 |shield",
+  "06-10" : "+1 |armor",
+  "11-20" : "+2 |shield",
+  "21-30" : "+2 |armor",
+  "31-40" : "+3 |shield",
+  "41-50" : "+3 |armor",
+  "51-55" : "+4 |shield",
+  "56-57" : "+4 |armor",
+  "58-60" : "|specific-armor",
+  "61-63" : "|specific-shield",
+  "64-100" : "|special-ability-roll-again"
+}
