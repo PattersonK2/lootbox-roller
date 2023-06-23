@@ -30,4 +30,11 @@ def load_roll_tables():
 def load_roll_table(quality, type="base"):
     # TODO: remove opening files and do it all in one step.
     filename = f"{quality}.{type}.json"
-    return data_dict[filename]
+    allfile = f"all.{type}.json"
+    if filename in data_dict:
+        return data_dict[filename]
+    elif allfile in data_dict:
+        return data_dict[f"all.{type}.json"]
+    else:
+        raise NotImplementedError(
+            f"Couldn't find file '{filename}' or '{allfile}', please make one of them")
