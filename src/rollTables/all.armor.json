@@ -1,0 +1,14 @@
+{
+  "01-01" : "Padded",
+  "02-02" : "Leather",
+  "03-17" : "Studded leather",
+  "18-32" : "Chain shirt",
+  "33-42" : "Hide",
+  "43-43" : "Scale mail",
+  "44-44" : "Chainmail",
+  "45-57" : "Breastplate",
+  "58-58" : "Splint mail",
+  "59-59" : "Banded mail",
+  "60-60" : "Half-plate",
+  "61-100" : "Full plate"
+}
