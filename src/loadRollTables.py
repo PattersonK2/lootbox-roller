@@ -34,7 +34,7 @@ def load_roll_table(quality, type="base"):
     if filename in data_dict:
         return data_dict[filename]
     elif allfile in data_dict:
-        return data_dict[f"all.{type}.json"]
+        return data_dict[allfile]
     else:
         raise NotImplementedError(
             f"Couldn't find file '{filename}' or '{allfile}', please make one of them")
