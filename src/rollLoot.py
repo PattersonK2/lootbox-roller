@@ -17,9 +17,10 @@ def roll_loot(quality):
             break
 
     # Print the result
+    print("Random Number:", random_number)
     if matched_item is not None:
-        print("Random Number:", random_number)
         print("Matched Item:", matched_item)
         return matched_item
     else:
         print("No match found.")
+        raise LookupError("Cannot find matched item for rolled number")
