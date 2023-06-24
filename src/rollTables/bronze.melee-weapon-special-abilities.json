@@ -1,0 +1,17 @@
+{
+  "01-10": "Bane|designated-foe",
+  "11-17": "Defending",
+  "18-27": "Flaming",
+  "28-37": "Frost",
+  "38-47": "Shock",
+  "48-56": "Ghost touch",
+  "57-67": "Keen²",
+  "68-71": "Ki Focus",
+  "72-75": "Merciful",
+  "76-82": "Mighty cleaving",
+  "83-87": "Spell storing",
+  "88-91": "Throwing",
+  "92-95": "Thundering",
+  "96-99": "Vicious",
+  "100-100": "rollTwice"
+}

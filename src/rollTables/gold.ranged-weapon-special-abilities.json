@@ -1,0 +1,20 @@
+{
+  "01-04": "Bane",
+  "05-08": "Distance",
+  "09-12": "Flaming",
+  "13-16": "Frost",
+  "17-21": "Returning",
+  "22-25": "Shock",
+  "26-27": "Seeking",
+  "28-29": "Thundering",
+  "30-34": "Anarchic",
+  "35-39": "Axiomatic",
+  "40-49": "Flaming burst",
+  "50-54": "Holy",
+  "55-64": "Icy burst",
+  "65-74": "Shocking burst",
+  "75-79": "Unholy",
+  "80-84": "Speed",
+  "85-90": "Brilliant energy",
+  "91-100": "rollTwice"
+}
