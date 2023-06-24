@@ -4,5 +4,17 @@
   "30-58" : "+3|weapon-type",
   "59-62" : "+4|weapon-type",
   "63-68" : "|specific-weapon",
-  "69-100" : "|weapon-special-abilities|weapons"
+  "69-70" : "+1|melee-weapon-special-abilities|common-melee-weapons",
+  "71-72" : "+1|melee-weapon-special-abilities|uncommon-weapons",
+  "73-74" : "+1|ranged-weapon-special-abilities|common-ranged-weapons",
+  "75-77" : "+2|melee-weapon-special-abilities|common-melee-weapons",
+  "78-80" : "+2|melee-weapon-special-abilities|uncommon-weapons",
+  "81-83" : "+2|ranged-weapon-special-abilities|common-ranged-weapons",
+  "84-86" : "+3|melee-weapon-special-abilities|common-melee-weapons",
+  "87-89" : "+3|melee-weapon-special-abilities|uncommon-weapons",
+  "90-92" : "+3|ranged-weapon-special-abilities|common-ranged-weapons",
+  "93-94" : "+4|melee-weapon-special-abilities|common-melee-weapons",
+  "95-96" : "+4|melee-weapon-special-abilities|uncommon-weapons",
+  "97-98" : "+4|ranged-weapon-special-abilities|common-ranged-weapons",
+  "99-100" : "|melee-weapon-special-abilities|specific-weapon"
 }
