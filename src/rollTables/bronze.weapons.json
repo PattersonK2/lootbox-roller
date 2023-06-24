@@ -1,0 +1,6 @@
+{
+  "01-70" : "+1|weapon-type",
+  "71-85" : "+2|weapon-type",
+  "86-90" : "|specific-weapon",
+  "91-100" : "|weapon-special-abilities|weapons"
+}

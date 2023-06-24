@@ -1,0 +1,19 @@
+{
+  "01-10" : "Ammunition (choice) (x50)",
+  "11-15" : "Axe, throwing",
+  "16-25" : "Crossbow, heavy",
+  "26-35" : "Crossbow, light",
+  "36-39" : "Dart",
+  "40-41" : "Javelin",
+  "42-46" : "Shortbow",
+  "47-51" : "Shortbow, composite (+0 Str bonus)",
+  "52-56" : "Shortbow, composite (+1 Str bonus)",
+  "57-61" : "Shortbow, composite (+2 Str bonus)",
+  "62-65" : "Sling",
+  "66-75" : "Longbow",
+  "76-80" : "Longbow, composite",
+  "81-85" : "Longbow, composite (+1 Str bonus)",
+  "86-90" : "Longbow, composite (+2 Str bonus)",
+  "91-95" : "Longbow, composite (+3 Str bonus)",
+  "96-100" : "Longbow, composite (+4 Str bonus)"
+}

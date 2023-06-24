@@ -1,0 +1,18 @@
+{
+  "01-04" : "Dagger",
+  "05-14" : "Greataxe",
+  "15-24" : "Greatsword",
+  "25-28" : "Kama",
+  "29-41" : "Longsword",
+  "42-45" : "Mace, light",
+  "46-50" : "Mace, heavy",
+  "51-54" : "Nunchaku",
+  "55-57" : "Quarterstaff",
+  "58-61" : "Rapier",
+  "62-66" : "Scimitar",
+  "67-70" : "Shortspear",
+  "71-74" : "Siangham",
+  "75-84" : "Sword, bastard",
+  "85-89" : "Sword, short",
+  "90-100" : "Waraxe, dwarven"
+}
