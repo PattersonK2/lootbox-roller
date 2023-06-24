@@ -18,6 +18,24 @@
             "console": "integratedTerminal",
             "args": ["-qr", "2"],
             "justMyCode": true
+        },
+        {
+            "name": "Python: Quickroll Gold",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": ["-qr", "3"],
+            "justMyCode": true
+        },
+        {
+            "name": "Python: Manual rolls",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": ["-m"],
+            "justMyCode": true
         }
     ]
 }

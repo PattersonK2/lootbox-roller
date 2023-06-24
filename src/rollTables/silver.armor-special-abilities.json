@@ -1,0 +1,22 @@
+{
+  "01-05" : "Glamered",
+  "06-08" : "Fortification, light",
+  "09-11" : "Slick",
+  "12-14" : "Shadow",
+  "15-17" : "Silent moves",
+  "18-19" : "Spell resistance (13)",
+  "20-29" : "Slick, improved",
+  "30-39" : "Shadow, improved",
+  "40-49" : "Silent moves, improved",
+  "50-54" : "Acid resistance",
+  "55-59" : "Cold resistance",
+  "60-64" : "Electricity resistance",
+  "65-69" : "Fire resistance",
+  "70-74" : "Sonic resistance",
+  "75-79" : "Ghost touch",
+  "80-84" : "Invulnerability",
+  "85-89" : "Fortification, moderate",
+  "90-94" : "Spell resistance (15)",
+  "95-99" : "Wild",
+  "100-100" : "rollTwice"
+}

@@ -8,7 +8,7 @@ def select_lootbox(quick_roll=None):
     print("Select Lootbox to roll:")
     print("1. Bronze")
     print("2. Silver")
-    print("3. Quality")
+    print("3. Gold")
 
     # Prompt for user input
     while True:
@@ -19,7 +19,7 @@ def select_lootbox(quick_roll=None):
             print("Invalid input. Please enter a valid selection.")
 
 
-def user_interaction(quick_roll=None):
+def user_interaction(quick_roll=None, manual_rolls=False):
     # Call the function to prompt the user
     user_selection = select_lootbox(quick_roll)
 
@@ -27,13 +27,13 @@ def user_interaction(quick_roll=None):
     # Do something based on the user's selection
     if user_selection == 1:
         print("Bronze selected.")
-        loot = roll_loot("bronze")
+        loot = roll_loot("bronze", manual_rolls=manual_rolls)
     elif user_selection == 2:
         print("Silver selected.")
-        loot = roll_loot("silver")
+        loot = roll_loot("silver", manual_rolls=manual_rolls)
     elif user_selection == 3:
-        print("Quality selected.")
-        loot = roll_loot("quality")
+        print("Gold selected.")
+        loot = roll_loot("gold", manual_rolls=manual_rolls)
     else:
         print(f"How TF was {user_selection} selected?!")
 

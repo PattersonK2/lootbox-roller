@@ -7,7 +7,7 @@ from selectLootbox import user_interaction
 
 def main(args):
     load_roll_tables()
-    user_interaction(args.quickroll)
+    user_interaction(args.quickroll, args.manual)
 
 
 if __name__ == '__main__':
@@ -23,6 +23,11 @@ if __name__ == '__main__':
         help="select an option and bypass the prompt",
         default=None,
         metavar="ARG")
+    parser.add_argument(
+        "-m",
+        "--manual",
+        help="manually input rolls instead of using an auto-roller",
+        action="store_true")
     parser.add_argument(
         "-v",
         "--verbose",

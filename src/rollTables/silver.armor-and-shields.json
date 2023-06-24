@@ -1,13 +1,22 @@
 {
-  "01-05" : "+1 |shield",
+  "01-05" : "+1 |shields",
   "06-10" : "+1 |armor",
-  "11-20" : "+2 |shield",
+  "11-20" : "+2 |shields",
   "21-30" : "+2 |armor",
-  "31-40" : "+3 |shield",
+  "31-40" : "+3 |shields",
   "41-50" : "+3 |armor",
-  "51-55" : "+4 |shield",
+  "51-55" : "+4 |shields",
   "56-57" : "+4 |armor",
   "58-60" : "|specific-armor",
   "61-63" : "|specific-shield",
-  "64-100" : "|special-ability-roll-again"
+  "64-68" : "+1 |shield-special-abilities|shields",
+  "69-72" : "+1 |armor-special-abilities|armor",
+  "73-76" : "+2 |shield-special-abilities|shields",
+  "77-80" : "+2 |armor-special-abilities|armor",
+  "81-84" : "+3 |shield-special-abilities|shields",
+  "85-88" : "+3 |armor-special-abilities|armor",
+  "89-92" : "+4 |shield-special-abilities|shields",
+  "93-96" : "+4 |armor-special-abilities|armor",
+  "97-98" : "|armor-special-abilities|specific-armor",
+  "99-100" : "|shield-special-abilities|specific-shield"
 }

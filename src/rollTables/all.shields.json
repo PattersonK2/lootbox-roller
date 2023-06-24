@@ -1,0 +1,8 @@
+{
+  "01-10" : "Buckler",
+  "11-15" : "Shield, light, wooden",
+  "16-20" : "Shield, light, steel",
+  "21-30" : "Shield, heavy, wooden",
+  "31-95" : "Shield, heavy, steel",
+  "96-100" : "Shield, tower"
+}

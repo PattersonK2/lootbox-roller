@@ -1,0 +1,21 @@
+{
+  "01-10" : "Arrow catching",
+  "11-20" : "Bashing",
+  "21-25" : "Blinding",
+  "26-40" : "Fortification, light",
+  "41-50" : "Arrow deflection",
+  "51-57" : "Animated",
+  "58-59" : "Spell resistance (13)",
+  "60-64" : "Acid resistance",
+  "65-69" : "Cold resistance",
+  "70-74" : "Electricity resistance",
+  "75-79" : "Fire resistance",
+  "80-84" : "Sonic resistance",
+  "85-86" : "Spell resistance (17)",
+  "87-87" : "Undead controlling",
+  "88-91" : "Fortification, heavy",
+  "92-93" : "Reflecting",
+  "94-94" : "Spell resistance (13)",
+  "95-99" : "Acid resistance, greater",
+  "100-100" : "rollTwice"
+}

@@ -1,9 +1,14 @@
 {
-  "01-60" : "+1 |shield",
+  "01-60" : "+1 |shields",
   "61-80" : "+1 |armor",
-  "81-85" : "+2 |shield",
+  "81-85" : "+2 |shields",
   "86-87" : "+2 |armor",
   "88-89" : "|specific-armor",
   "90-91" : "|specific-shield",
-  "92-100" : "|special-ability-roll-again"
+  "92-94" : "+1 |shield-special-abilities|shields",
+  "95-96" : "+1 |armor-special-abilities|armor",
+  "97-97" : "+2 |shield-special-abilities|shields",
+  "98-98" : "+2 |armor-special-abilities|armor",
+  "99-99" : "|armor-special-abilities|specific-armor",
+  "100-100" : "|shield-special-abilities|specific-shield"
 }
