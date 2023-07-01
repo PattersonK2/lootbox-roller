@@ -1,0 +1,19 @@
+{
+  "01-07": "Metamagic, Enlarge, lesser",
+  "08-14": "Metamagic, Extend, lesser",
+  "15-21": "Metamagic, Silent, lesser",
+  "22-28": "Immovable",
+  "29-35": "Metamagic, Empower, lesser",
+  "36-42": "Metal and mineral detection",
+  "43-53": "Cancellation",
+  "54-57": "Metamagic, Enlarge",
+  "58-61": "Metamagic, Extend",
+  "62-65": "Metamagic, Silent",
+  "66-71": "Wonder",
+  "72-79": "Python",
+  "80-83": "Metamagic, Maximize, lesser",
+  "84-89": "Flame extinguishing",
+  "90-97": "Viper",
+  "98-99": "Metamagic, Empower",
+  "100": "Metamagic, Quicken, lesser"
+}
